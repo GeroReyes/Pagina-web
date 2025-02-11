@@ -12,6 +12,7 @@ throw new Error('Method not implemented.');
 }
    // Lista de los enlaces para el menú
    menuItems = [
+    {name: 'Inicio', route:'/login'},
     {name:'Usuarios', route:'/home'},
     { name: 'Producto', route: '/producto' },
     { name: 'Empleados', route: '/empleados' },
